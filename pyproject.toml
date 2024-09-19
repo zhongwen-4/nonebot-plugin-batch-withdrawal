@@ -1,0 +1,22 @@
+[project]
+name = "nonebot-plugin-batch-withdrawal"
+version = "0.0.1"
+description = "批量撤回"
+readme = "README.md"
+requires-python = ">=3.9, <4.0"
+dependencies = [
+    "nonebot-plugin-alconna>=0.52.2",
+    "nonebot-plugin-localstore>=0.7.1",
+    "nonebot-adapter-onebot>=2.4.5",
+]
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
+]
+
+plugin_dirs = ["demo/plugins"]
+builtin_plugins = ["echo"]
+plugins = []
+
+[tool.pdm]
