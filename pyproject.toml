@@ -1,6 +1,6 @@
 [project]
 name = "nonebot-plugin-batch-withdrawal"
-version = "0.0.4"
+version = "0.0.3"
 description = "批量撤回"
 readme = "README.md"
 requires-python = ">=3.9, <4.0"
