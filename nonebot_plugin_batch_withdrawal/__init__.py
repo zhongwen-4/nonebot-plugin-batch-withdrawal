@@ -3,6 +3,18 @@ import aiosqlite
 from nonebot import on_message, get_driver, require, logger
 from nonebot.adapters.onebot.v11 import GroupMessageEvent, Bot, GROUP_ADMIN, GROUP_OWNER
 from nonebot.permission import SUPERUSER
+from nonebot.plugin import PluginMetadata
+
+
+__plugin_meta__ = PluginMetadata(
+    name= "批量撤回",
+    description="批量撤回消息",
+    usage="发送 [delete <@qq> 数量]",
+    supported_adapters= {"~onebot.v11"},
+    type= "application",
+    homepage= "https://github.com/zhongwen-4/nonebot-plugin-batch-withdrawal"
+)
+
 
 require("nonebot_plugin_localstore")
 require("nonebot_plugin_alconna")
