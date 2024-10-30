@@ -21,7 +21,7 @@ require("nonebot_plugin_alconna")
 import nonebot_plugin_localstore as localstore
 
 path = localstore.get_plugin_data_dir()
-write_message_id = on_message()
+write_message_id = on_message(block= False)
 driver = get_driver()
 
 from nonebot_plugin_alconna import on_alconna, Alconna, Args, Arparma, At, Match
