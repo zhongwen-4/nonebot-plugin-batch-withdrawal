@@ -14,7 +14,7 @@
 <summary>使用 pip 安装</summary>
 在 nonebot2 项目的根目录下打开命令行, 输入以下指令即可安装
 
-如果你启用了 **虚拟环境** 且 **nonebot没有加载本插件** 则需要进入.\.venv\Scripts下运行命令行,将pip.exe拖入命令行中再运行以下命令
+> 如果你启用了 **虚拟环境** 且 **nonebot没有加载本插件** 则需要进入.\.venv\Scripts目录下打开命令行,将pip.exe或者pip拖入命令行中再运行以下命令
 
     pip install nonebot-plugin-batch-withdrawal
 
